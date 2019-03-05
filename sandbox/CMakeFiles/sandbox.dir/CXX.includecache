@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../hazel/hazel.h
+src/test.h
+../hazel/src/test.h
+
+../hazel/src/test.h
+
+/home/adam/workspace/hazel/sandbox/src/main.cpp
+iostream
+-
+hazel.h
+/home/adam/workspace/hazel/sandbox/src/hazel.h
+

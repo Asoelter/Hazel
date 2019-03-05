@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adam/workspace/hazel/hazel/src/test.cpp
+test.h
+/home/adam/workspace/hazel/hazel/src/test.h
+iostream
+-
+
+/home/adam/workspace/hazel/hazel/src/test.h
+
