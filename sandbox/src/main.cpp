@@ -1,12 +1,24 @@
 #include <iostream>
-#include "hazel.h"
+#include <hazel.h>
+
+class Sandbox : public Hazel::Application
+{
+	public:
+		Sandbox()
+		{
+
+		}
+
+		~Sandbox()
+		{
+
+		}
+};
 
 int main()
 {
-	std::cout << "Hello from sandbox" << std::endl;
-
-	Hazel::print();
-	Hazel::print2();
+	Sandbox app;
+	app.run();
 
 	return 0;
 }

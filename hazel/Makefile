@@ -167,32 +167,32 @@ hazel/fast:
 	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/build
 .PHONY : hazel/fast
 
-src/test.o: src/test.cpp.o
+src/application.o: src/application.cpp.o
 
-.PHONY : src/test.o
+.PHONY : src/application.o
 
 # target to build an object file
-src/test.cpp.o:
-	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/test.cpp.o
-.PHONY : src/test.cpp.o
+src/application.cpp.o:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/application.cpp.o
+.PHONY : src/application.cpp.o
 
-src/test.i: src/test.cpp.i
+src/application.i: src/application.cpp.i
 
-.PHONY : src/test.i
+.PHONY : src/application.i
 
 # target to preprocess a source file
-src/test.cpp.i:
-	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/test.cpp.i
-.PHONY : src/test.cpp.i
+src/application.cpp.i:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/application.cpp.i
+.PHONY : src/application.cpp.i
 
-src/test.s: src/test.cpp.s
+src/application.s: src/application.cpp.s
 
-.PHONY : src/test.s
+.PHONY : src/application.s
 
 # target to generate assembly for a file
-src/test.cpp.s:
-	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/test.cpp.s
-.PHONY : src/test.cpp.s
+src/application.cpp.s:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/application.cpp.s
+.PHONY : src/application.cpp.s
 
 # Help Target
 help:
@@ -207,9 +207,9 @@ help:
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... list_install_components"
-	@echo "... src/test.o"
-	@echo "... src/test.i"
-	@echo "... src/test.s"
+	@echo "... src/application.o"
+	@echo "... src/application.i"
+	@echo "... src/application.s"
 .PHONY : help
 
 

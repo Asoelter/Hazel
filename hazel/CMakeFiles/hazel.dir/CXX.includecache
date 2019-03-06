@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/adam/workspace/hazel/hazel/src/test.cpp
-test.h
-/home/adam/workspace/hazel/hazel/src/test.h
-iostream
--
+/home/adam/workspace/hazel/hazel/src/application.cpp
+application.h
+/home/adam/workspace/hazel/hazel/src/application.h
 
-/home/adam/workspace/hazel/hazel/src/test.h
+/home/adam/workspace/hazel/hazel/src/application.h
 

@@ -10,7 +10,7 @@ include_directories(/home/adam/workspace/hazel/hazel/src)
 
 add_library(hazel		SHARED 
 			hazel.h
-			src/test.h	src/test.cpp)
+			src/application.h	src/application.cpp)
 
 install(TARGETS "${PROJECT_NAME}" DESTINATION bin)
 install(FILES "main.cpp" DESTINATION src)

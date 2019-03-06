@@ -57,38 +57,38 @@ include CMakeFiles/hazel.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hazel.dir/flags.make
 
-CMakeFiles/hazel.dir/src/test.cpp.o: CMakeFiles/hazel.dir/flags.make
-CMakeFiles/hazel.dir/src/test.cpp.o: src/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/workspace/hazel/hazel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hazel.dir/src/test.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hazel.dir/src/test.cpp.o -c /home/adam/workspace/hazel/hazel/src/test.cpp
+CMakeFiles/hazel.dir/src/application.cpp.o: CMakeFiles/hazel.dir/flags.make
+CMakeFiles/hazel.dir/src/application.cpp.o: src/application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/workspace/hazel/hazel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hazel.dir/src/application.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hazel.dir/src/application.cpp.o -c /home/adam/workspace/hazel/hazel/src/application.cpp
 
-CMakeFiles/hazel.dir/src/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hazel.dir/src/test.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/workspace/hazel/hazel/src/test.cpp > CMakeFiles/hazel.dir/src/test.cpp.i
+CMakeFiles/hazel.dir/src/application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hazel.dir/src/application.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/workspace/hazel/hazel/src/application.cpp > CMakeFiles/hazel.dir/src/application.cpp.i
 
-CMakeFiles/hazel.dir/src/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hazel.dir/src/test.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/workspace/hazel/hazel/src/test.cpp -o CMakeFiles/hazel.dir/src/test.cpp.s
+CMakeFiles/hazel.dir/src/application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hazel.dir/src/application.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/workspace/hazel/hazel/src/application.cpp -o CMakeFiles/hazel.dir/src/application.cpp.s
 
-CMakeFiles/hazel.dir/src/test.cpp.o.requires:
+CMakeFiles/hazel.dir/src/application.cpp.o.requires:
 
-.PHONY : CMakeFiles/hazel.dir/src/test.cpp.o.requires
+.PHONY : CMakeFiles/hazel.dir/src/application.cpp.o.requires
 
-CMakeFiles/hazel.dir/src/test.cpp.o.provides: CMakeFiles/hazel.dir/src/test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/test.cpp.o.provides.build
-.PHONY : CMakeFiles/hazel.dir/src/test.cpp.o.provides
+CMakeFiles/hazel.dir/src/application.cpp.o.provides: CMakeFiles/hazel.dir/src/application.cpp.o.requires
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/application.cpp.o.provides.build
+.PHONY : CMakeFiles/hazel.dir/src/application.cpp.o.provides
 
-CMakeFiles/hazel.dir/src/test.cpp.o.provides.build: CMakeFiles/hazel.dir/src/test.cpp.o
+CMakeFiles/hazel.dir/src/application.cpp.o.provides.build: CMakeFiles/hazel.dir/src/application.cpp.o
 
 
 # Object files for target hazel
 hazel_OBJECTS = \
-"CMakeFiles/hazel.dir/src/test.cpp.o"
+"CMakeFiles/hazel.dir/src/application.cpp.o"
 
 # External object files for target hazel
 hazel_EXTERNAL_OBJECTS =
 
-lib/libhazel.so: CMakeFiles/hazel.dir/src/test.cpp.o
+lib/libhazel.so: CMakeFiles/hazel.dir/src/application.cpp.o
 lib/libhazel.so: CMakeFiles/hazel.dir/build.make
 lib/libhazel.so: CMakeFiles/hazel.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/workspace/hazel/hazel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library lib/libhazel.so"
@@ -99,7 +99,7 @@ CMakeFiles/hazel.dir/build: lib/libhazel.so
 
 .PHONY : CMakeFiles/hazel.dir/build
 
-CMakeFiles/hazel.dir/requires: CMakeFiles/hazel.dir/src/test.cpp.o.requires
+CMakeFiles/hazel.dir/requires: CMakeFiles/hazel.dir/src/application.cpp.o.requires
 
 .PHONY : CMakeFiles/hazel.dir/requires
 
