@@ -12,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "src"
   "../hazel"
+  "/home/adam/workspace/hazel/hazel/vendor/spdlog/include"
   )
 
 # Targets to which this target links.

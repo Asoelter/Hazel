@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/sandbox.dir/src/main.cpp.o  -o sandbox  -L/home/adam/workspace/hazel/sandbox/src  -L/home/adam/workspace/hazel/sandbox/../hazel/src ../hazel/lib/libhazel.so -Wl,-rpath,/home/adam/workspace/hazel/sandbox/src:/home/adam/workspace/hazel/sandbox/../hazel/src:../hazel/lib: 
+/usr/bin/c++      CMakeFiles/sandbox.dir/src/main.cpp.o  -o sandbox ../hazel/lib/libhazel.so -Wl,-rpath,../hazel/lib: 

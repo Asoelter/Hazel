@@ -4,3 +4,28 @@
 CMakeFiles/hazel.dir/src/application.cpp.o: src/application.cpp
 CMakeFiles/hazel.dir/src/application.cpp.o: src/application.h
 
+CMakeFiles/hazel.dir/src/log.cpp.o: src/log.cpp
+CMakeFiles/hazel.dir/src/log.cpp.o: src/log.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/common.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/console_globals.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/fmt_helper.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/log_msg.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/logger_impl.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/null_mutex.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/os.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/pattern_formatter.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/periodic_worker.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/registry.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/bundled/core.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/bundled/format.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/fmt.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/formatter.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/logger.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/sinks/sink.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/spdlog.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/tweakme.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/version.h
+

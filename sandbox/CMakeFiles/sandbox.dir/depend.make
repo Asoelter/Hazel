@@ -3,5 +3,28 @@
 
 CMakeFiles/sandbox.dir/src/main.cpp.o: ../hazel/hazel.h
 CMakeFiles/sandbox.dir/src/main.cpp.o: ../hazel/src/application.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: ../hazel/src/log.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/common.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/console_globals.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/fmt_helper.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/log_msg.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/logger_impl.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/null_mutex.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/os.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/pattern_formatter.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/periodic_worker.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/registry.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/formatter.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/logger.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/sink.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/spdlog.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/tweakme.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/version.h
 CMakeFiles/sandbox.dir/src/main.cpp.o: src/main.cpp
 

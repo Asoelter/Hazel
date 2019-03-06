@@ -4,4 +4,27 @@
 CMakeFiles/sandbox.dir/src/main.cpp.o
  ../hazel/hazel.h
  ../hazel/src/application.h
+ ../hazel/src/log.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/common.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/console_globals.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/fmt_helper.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/log_msg.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/logger_impl.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/null_mutex.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/os.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/pattern_formatter.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/periodic_worker.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/registry.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/formatter.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/logger.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/sink.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/spdlog.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/tweakme.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/version.h
  /home/adam/workspace/hazel/sandbox/src/main.cpp

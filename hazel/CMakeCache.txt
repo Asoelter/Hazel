@@ -174,6 +174,9 @@ hazel_LIB_DEPENDS:STATIC=
 //Value Computed by CMake
 hazel_SOURCE_DIR:STATIC=/home/adam/workspace/hazel/hazel
 
+//The directory containing a CMake configuration file for spdlog.
+spdlog_DIR:PATH=/home/adam/workspace/hazel/hazel/vendor/spdlog
+
 
 ########################
 # INTERNAL cache entries

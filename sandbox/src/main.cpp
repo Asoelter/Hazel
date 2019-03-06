@@ -17,6 +17,10 @@ class Sandbox : public Hazel::Application
 
 int main()
 {
+	{
+		Hazel::Log logger;
+	}
+
 	Sandbox app;
 	app.run();
 
