@@ -25,6 +25,7 @@ CMakeFiles/hazel.dir/src/log.cpp.o
  vendor/spdlog/include/spdlog/logger.h
  vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h
  vendor/spdlog/include/spdlog/sinks/sink.h
+ vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h
  vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
  vendor/spdlog/include/spdlog/spdlog.h
  vendor/spdlog/include/spdlog/tweakme.h

@@ -15,8 +15,12 @@ src/log.h
 ../hazel/src/application.h
 
 ../hazel/src/log.h
+memory
+-
 spdlog/spdlog.h
 ../hazel/src/spdlog/spdlog.h
+spdlog/sinks/stdout_color_sinks.h
+../hazel/src/spdlog/sinks/stdout_color_sinks.h
 
 /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/common.h
 spdlog/tweakme.h
@@ -335,6 +339,14 @@ spdlog/details/pattern_formatter.h
 /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/spdlog/details/pattern_formatter.h
 spdlog/formatter.h
 /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/spdlog/formatter.h
+
+/home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h
+spdlog/spdlog.h
+/home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/spdlog/spdlog.h
+spdlog/sinks/wincolor_sink.h
+/home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/spdlog/sinks/wincolor_sink.h
+spdlog/sinks/ansicolor_sink.h
+/home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/spdlog/sinks/ansicolor_sink.h
 
 /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
 spdlog/spdlog.h

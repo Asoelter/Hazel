@@ -17,12 +17,12 @@ class Sandbox : public Hazel::Application
 
 int main()
 {
-	{
-		Hazel::Log logger;
-	}
+	Hazel::Log::init();
+	Hazel::Log::coreLogger()->warn("Initialized Logger");
+	Hazel::Log::coreLogger()->info("Hello from sandbox");
 
-	Sandbox app;
-	app.run();
+	//Sandbox app;
+	//app.run();
 
 	return 0;
 }

@@ -23,6 +23,7 @@ CMakeFiles/sandbox.dir/src/main.cpp.o
  /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/logger.h
  /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h
  /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/sink.h
+ /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h
  /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
  /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/spdlog.h
  /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/tweakme.h

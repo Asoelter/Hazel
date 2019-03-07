@@ -18,7 +18,7 @@ LINK_DIRECTORIES(src ../hazel/src)
 
 #link to spdlog
 find_package(spdlog)
-LINK_DIRECTORIES(. hazel/vendor/spdlog/include/spdlog)
+LINK_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR} hazel/vendor/spdlog/include/spdlog)
 target_link_libraries(sandbox spdlog::spdlog)
 
 install(TARGETS "${PROJECT_NAME}" DESTINATION bin)
