@@ -4,6 +4,9 @@
 CMakeFiles/hazel.dir/src/application.cpp.o
  /home/adam/workspace/hazel/hazel/src/application.cpp
  /home/adam/workspace/hazel/hazel/src/application.h
+CMakeFiles/hazel.dir/src/events/event.cpp.o
+ /home/adam/workspace/hazel/hazel/src/events/event.cpp
+ /home/adam/workspace/hazel/hazel/src/events/event.h
 CMakeFiles/hazel.dir/src/log.cpp.o
  /home/adam/workspace/hazel/hazel/src/log.cpp
  /home/adam/workspace/hazel/hazel/src/log.h

@@ -3,5 +3,6 @@
 
 #include "src/application.h"
 #include "src/log.h"
+#include "src/events/event.h"
 
 #endif //HAZEL_H

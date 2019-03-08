@@ -3,7 +3,9 @@ cmake_minimum_required(VERSION 3.5)
 project(sandbox)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_EXPORT_COMPILE_COMMANDS on) #To generate compilation database for ycm
 
+#link to include directories
 include_directories(/usr/include)
 include_directories(src)
 include_directories(../hazel)

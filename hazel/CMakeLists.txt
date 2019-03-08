@@ -4,6 +4,8 @@ project(hazel)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY lib)
+set(CMAKE_EXPORT_COMPILE_COMMANDS on) #To generate compilation database for ycm
+add_definitions(-DEBUG)
 
 #link to include directories
 include_directories(/usr/include)
@@ -14,7 +16,8 @@ include_directories(vendor/spdlog)
 add_library(hazel				SHARED 
 			hazel.h
 			src/application.h	src/application.cpp
-			src/log.h			src/log.cpp)
+			src/log.h			src/log.cpp
+			src/events/event.h	src/events/event.cpp)
 
 #spdlog setup
 find_package(spdlog)

@@ -18,11 +18,8 @@ class Sandbox : public Hazel::Application
 int main()
 {
 	Hazel::Log::init();
-	Hazel::Log::coreLogger()->warn("Initialized Logger");
-	Hazel::Log::coreLogger()->info("Hello from sandbox");
-
-	//Sandbox app;
-	//app.run();
+	Hazel::Log::CoreLogger::warn("This is a warning");
+	Hazel::Log::ClientLogger::info("This is some information");
 
 	return 0;
 }

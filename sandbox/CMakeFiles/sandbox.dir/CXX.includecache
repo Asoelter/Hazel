@@ -11,8 +11,18 @@ src/application.h
 ../hazel/src/application.h
 src/log.h
 ../hazel/src/log.h
+src/events/event.h
+../hazel/src/events/event.h
 
 ../hazel/src/application.h
+
+../hazel/src/events/event.h
+string
+-
+functional
+-
+iostream
+-
 
 ../hazel/src/log.h
 memory

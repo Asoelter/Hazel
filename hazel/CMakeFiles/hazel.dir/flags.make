@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS = -fPIC   -std=gnu++14
 
-CXX_DEFINES = -Dhazel_EXPORTS
+CXX_DEFINES = -DEBUG -Dhazel_EXPORTS
 
 CXX_INCLUDES = -I/home/adam/workspace/hazel/hazel/src -I/home/adam/workspace/hazel/hazel/vendor/spdlog -isystem /home/adam/workspace/hazel/hazel/vendor/spdlog/include 
 

@@ -12,6 +12,18 @@ application.h
 
 /home/adam/workspace/hazel/hazel/src/application.h
 
+/home/adam/workspace/hazel/hazel/src/events/event.cpp
+event.h
+/home/adam/workspace/hazel/hazel/src/events/event.h
+
+/home/adam/workspace/hazel/hazel/src/events/event.h
+string
+-
+functional
+-
+iostream
+-
+
 /home/adam/workspace/hazel/hazel/src/log.cpp
 log.h
 /home/adam/workspace/hazel/hazel/src/log.h

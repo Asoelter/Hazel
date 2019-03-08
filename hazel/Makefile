@@ -194,6 +194,33 @@ src/application.cpp.s:
 	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/application.cpp.s
 .PHONY : src/application.cpp.s
 
+src/events/event.o: src/events/event.cpp.o
+
+.PHONY : src/events/event.o
+
+# target to build an object file
+src/events/event.cpp.o:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/event.cpp.o
+.PHONY : src/events/event.cpp.o
+
+src/events/event.i: src/events/event.cpp.i
+
+.PHONY : src/events/event.i
+
+# target to preprocess a source file
+src/events/event.cpp.i:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/event.cpp.i
+.PHONY : src/events/event.cpp.i
+
+src/events/event.s: src/events/event.cpp.s
+
+.PHONY : src/events/event.s
+
+# target to generate assembly for a file
+src/events/event.cpp.s:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/event.cpp.s
+.PHONY : src/events/event.cpp.s
+
 src/log.o: src/log.cpp.o
 
 .PHONY : src/log.o
@@ -237,6 +264,9 @@ help:
 	@echo "... src/application.o"
 	@echo "... src/application.i"
 	@echo "... src/application.s"
+	@echo "... src/events/event.o"
+	@echo "... src/events/event.i"
+	@echo "... src/events/event.s"
 	@echo "... src/log.o"
 	@echo "... src/log.i"
 	@echo "... src/log.s"

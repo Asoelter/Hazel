@@ -4,6 +4,9 @@
 CMakeFiles/hazel.dir/src/application.cpp.o: src/application.cpp
 CMakeFiles/hazel.dir/src/application.cpp.o: src/application.h
 
+CMakeFiles/hazel.dir/src/events/event.cpp.o: src/events/event.cpp
+CMakeFiles/hazel.dir/src/events/event.cpp.o: src/events/event.h
+
 CMakeFiles/hazel.dir/src/log.cpp.o: src/log.cpp
 CMakeFiles/hazel.dir/src/log.cpp.o: src/log.h
 CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/common.h
