@@ -221,6 +221,60 @@ src/events/event.cpp.s:
 	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/event.cpp.s
 .PHONY : src/events/event.cpp.s
 
+src/events/key_event.o: src/events/key_event.cpp.o
+
+.PHONY : src/events/key_event.o
+
+# target to build an object file
+src/events/key_event.cpp.o:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/key_event.cpp.o
+.PHONY : src/events/key_event.cpp.o
+
+src/events/key_event.i: src/events/key_event.cpp.i
+
+.PHONY : src/events/key_event.i
+
+# target to preprocess a source file
+src/events/key_event.cpp.i:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/key_event.cpp.i
+.PHONY : src/events/key_event.cpp.i
+
+src/events/key_event.s: src/events/key_event.cpp.s
+
+.PHONY : src/events/key_event.s
+
+# target to generate assembly for a file
+src/events/key_event.cpp.s:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/key_event.cpp.s
+.PHONY : src/events/key_event.cpp.s
+
+src/events/mouse_event.o: src/events/mouse_event.cpp.o
+
+.PHONY : src/events/mouse_event.o
+
+# target to build an object file
+src/events/mouse_event.cpp.o:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o
+.PHONY : src/events/mouse_event.cpp.o
+
+src/events/mouse_event.i: src/events/mouse_event.cpp.i
+
+.PHONY : src/events/mouse_event.i
+
+# target to preprocess a source file
+src/events/mouse_event.cpp.i:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/mouse_event.cpp.i
+.PHONY : src/events/mouse_event.cpp.i
+
+src/events/mouse_event.s: src/events/mouse_event.cpp.s
+
+.PHONY : src/events/mouse_event.s
+
+# target to generate assembly for a file
+src/events/mouse_event.cpp.s:
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/mouse_event.cpp.s
+.PHONY : src/events/mouse_event.cpp.s
+
 src/log.o: src/log.cpp.o
 
 .PHONY : src/log.o
@@ -267,6 +321,12 @@ help:
 	@echo "... src/events/event.o"
 	@echo "... src/events/event.i"
 	@echo "... src/events/event.s"
+	@echo "... src/events/key_event.o"
+	@echo "... src/events/key_event.i"
+	@echo "... src/events/key_event.s"
+	@echo "... src/events/mouse_event.o"
+	@echo "... src/events/mouse_event.i"
+	@echo "... src/events/mouse_event.s"
 	@echo "... src/log.o"
 	@echo "... src/log.i"
 	@echo "... src/log.s"

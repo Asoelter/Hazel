@@ -37,10 +37,10 @@ namespace Hazel
 	class Event
 	{
 		public:
-			virtual EventType		type()		const	= 0;
-			virtual std::string		name()		const	= 0;
-			virtual EventCategory	category()	const	= 0;
-			virtual std::string		toString()	const	= 0;
+			virtual EventType		staticType()	const	= 0;
+			virtual std::string		name()			const	= 0;
+			virtual int				category()		const	= 0;
+			virtual std::string		toString()		const	= 0;
 
 			bool isInCategory(EventCategory category) const;
 

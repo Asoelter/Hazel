@@ -7,6 +7,14 @@ CMakeFiles/hazel.dir/src/application.cpp.o: src/application.h
 CMakeFiles/hazel.dir/src/events/event.cpp.o: src/events/event.cpp
 CMakeFiles/hazel.dir/src/events/event.cpp.o: src/events/event.h
 
+CMakeFiles/hazel.dir/src/events/key_event.cpp.o: src/events/event.h
+CMakeFiles/hazel.dir/src/events/key_event.cpp.o: src/events/key_event.cpp
+CMakeFiles/hazel.dir/src/events/key_event.cpp.o: src/events/key_event.h
+
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o: src/events/event.h
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o: src/events/mouse_event.cpp
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o: src/events/mouse_event.h
+
 CMakeFiles/hazel.dir/src/log.cpp.o: src/log.cpp
 CMakeFiles/hazel.dir/src/log.cpp.o: src/log.h
 CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/common.h
@@ -22,7 +30,9 @@ CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/details/registr
 CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/bundled/core.h
 CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
 CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/bundled/format.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
 CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/fmt.h
+CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/fmt/ostr.h
 CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/formatter.h
 CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/logger.h
 CMakeFiles/hazel.dir/src/log.cpp.o: vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h

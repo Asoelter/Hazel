@@ -15,9 +15,12 @@ include_directories(vendor/spdlog)
 #hazel setup
 add_library(hazel				SHARED 
 			hazel.h
-			src/application.h	src/application.cpp
-			src/log.h			src/log.cpp
-			src/events/event.h	src/events/event.cpp)
+			src/application.h			src/application.cpp
+			src/log.h					src/log.cpp
+			src/events/event.h			src/events/event.cpp
+			src/events/key_event.h		src/events/key_event.cpp
+			src/events/mouse_event.h	src/events/mouse_event.cpp
+			)
 
 #spdlog setup
 find_package(spdlog)

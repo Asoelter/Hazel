@@ -1,4 +1,5 @@
 #include "log.h"
+#include <spdlog/fmt/ostr.h>
 
 namespace Hazel
 {

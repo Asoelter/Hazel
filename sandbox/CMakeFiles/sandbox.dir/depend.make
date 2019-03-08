@@ -4,6 +4,8 @@
 CMakeFiles/sandbox.dir/src/main.cpp.o: ../hazel/hazel.h
 CMakeFiles/sandbox.dir/src/main.cpp.o: ../hazel/src/application.h
 CMakeFiles/sandbox.dir/src/main.cpp.o: ../hazel/src/events/event.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: ../hazel/src/events/key_event.h
+CMakeFiles/sandbox.dir/src/main.cpp.o: ../hazel/src/events/mouse_event.h
 CMakeFiles/sandbox.dir/src/main.cpp.o: ../hazel/src/log.h
 CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/common.h
 CMakeFiles/sandbox.dir/src/main.cpp.o: /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/console_globals.h

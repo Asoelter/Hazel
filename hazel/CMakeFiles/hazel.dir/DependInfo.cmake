@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/adam/workspace/hazel/hazel/src/application.cpp" "/home/adam/workspace/hazel/hazel/CMakeFiles/hazel.dir/src/application.cpp.o"
   "/home/adam/workspace/hazel/hazel/src/events/event.cpp" "/home/adam/workspace/hazel/hazel/CMakeFiles/hazel.dir/src/events/event.cpp.o"
+  "/home/adam/workspace/hazel/hazel/src/events/key_event.cpp" "/home/adam/workspace/hazel/hazel/CMakeFiles/hazel.dir/src/events/key_event.cpp.o"
+  "/home/adam/workspace/hazel/hazel/src/events/mouse_event.cpp" "/home/adam/workspace/hazel/hazel/CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o"
   "/home/adam/workspace/hazel/hazel/src/log.cpp" "/home/adam/workspace/hazel/hazel/CMakeFiles/hazel.dir/src/log.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

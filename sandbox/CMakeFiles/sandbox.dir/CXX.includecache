@@ -13,6 +13,10 @@ src/log.h
 ../hazel/src/log.h
 src/events/event.h
 ../hazel/src/events/event.h
+src/events/key_event.h
+../hazel/src/events/key_event.h
+src/events/mouse_event.h
+../hazel/src/events/mouse_event.h
 
 ../hazel/src/application.h
 
@@ -23,6 +27,14 @@ functional
 -
 iostream
 -
+
+../hazel/src/events/key_event.h
+event.h
+../hazel/src/events/event.h
+
+../hazel/src/events/mouse_event.h
+event.h
+../hazel/src/events/event.h
 
 ../hazel/src/log.h
 memory

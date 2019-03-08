@@ -5,6 +5,8 @@ CMakeFiles/sandbox.dir/src/main.cpp.o
  ../hazel/hazel.h
  ../hazel/src/application.h
  ../hazel/src/events/event.h
+ ../hazel/src/events/key_event.h
+ ../hazel/src/events/mouse_event.h
  ../hazel/src/log.h
  /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/common.h
  /home/adam/workspace/hazel/hazel/vendor/spdlog/include/spdlog/details/console_globals.h

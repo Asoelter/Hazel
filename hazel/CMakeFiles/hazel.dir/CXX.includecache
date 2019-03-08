@@ -24,9 +24,27 @@ functional
 iostream
 -
 
+/home/adam/workspace/hazel/hazel/src/events/key_event.cpp
+key_event.h
+/home/adam/workspace/hazel/hazel/src/events/key_event.h
+
+/home/adam/workspace/hazel/hazel/src/events/key_event.h
+event.h
+/home/adam/workspace/hazel/hazel/src/events/event.h
+
+/home/adam/workspace/hazel/hazel/src/events/mouse_event.cpp
+mouse_event.h
+/home/adam/workspace/hazel/hazel/src/events/mouse_event.h
+
+/home/adam/workspace/hazel/hazel/src/events/mouse_event.h
+event.h
+/home/adam/workspace/hazel/hazel/src/events/event.h
+
 /home/adam/workspace/hazel/hazel/src/log.cpp
 log.h
 /home/adam/workspace/hazel/hazel/src/log.h
+spdlog/fmt/ostr.h
+-
 
 /home/adam/workspace/hazel/hazel/src/log.h
 memory
@@ -294,6 +312,12 @@ fmt/format.h
 format-inl.h
 vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
 
+vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
+format.h
+vendor/spdlog/include/spdlog/fmt/bundled/format.h
+ostream
+-
+
 vendor/spdlog/include/spdlog/fmt/fmt.h
 bundled/core.h
 vendor/spdlog/include/spdlog/fmt/bundled/core.h
@@ -302,6 +326,14 @@ vendor/spdlog/include/spdlog/fmt/bundled/format.h
 fmt/core.h
 -
 fmt/format.h
+-
+
+vendor/spdlog/include/spdlog/fmt/ostr.h
+bundled/ostream.h
+vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
+fmt.h
+vendor/spdlog/include/spdlog/fmt/fmt.h
+fmt/ostream.h
 -
 
 vendor/spdlog/include/spdlog/formatter.h

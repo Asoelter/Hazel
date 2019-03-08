@@ -129,11 +129,61 @@ CMakeFiles/hazel.dir/src/events/event.cpp.o.provides: CMakeFiles/hazel.dir/src/e
 CMakeFiles/hazel.dir/src/events/event.cpp.o.provides.build: CMakeFiles/hazel.dir/src/events/event.cpp.o
 
 
+CMakeFiles/hazel.dir/src/events/key_event.cpp.o: CMakeFiles/hazel.dir/flags.make
+CMakeFiles/hazel.dir/src/events/key_event.cpp.o: src/events/key_event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/workspace/hazel/hazel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hazel.dir/src/events/key_event.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hazel.dir/src/events/key_event.cpp.o -c /home/adam/workspace/hazel/hazel/src/events/key_event.cpp
+
+CMakeFiles/hazel.dir/src/events/key_event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hazel.dir/src/events/key_event.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/workspace/hazel/hazel/src/events/key_event.cpp > CMakeFiles/hazel.dir/src/events/key_event.cpp.i
+
+CMakeFiles/hazel.dir/src/events/key_event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hazel.dir/src/events/key_event.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/workspace/hazel/hazel/src/events/key_event.cpp -o CMakeFiles/hazel.dir/src/events/key_event.cpp.s
+
+CMakeFiles/hazel.dir/src/events/key_event.cpp.o.requires:
+
+.PHONY : CMakeFiles/hazel.dir/src/events/key_event.cpp.o.requires
+
+CMakeFiles/hazel.dir/src/events/key_event.cpp.o.provides: CMakeFiles/hazel.dir/src/events/key_event.cpp.o.requires
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/key_event.cpp.o.provides.build
+.PHONY : CMakeFiles/hazel.dir/src/events/key_event.cpp.o.provides
+
+CMakeFiles/hazel.dir/src/events/key_event.cpp.o.provides.build: CMakeFiles/hazel.dir/src/events/key_event.cpp.o
+
+
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o: CMakeFiles/hazel.dir/flags.make
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o: src/events/mouse_event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/workspace/hazel/hazel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o -c /home/adam/workspace/hazel/hazel/src/events/mouse_event.cpp
+
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hazel.dir/src/events/mouse_event.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/workspace/hazel/hazel/src/events/mouse_event.cpp > CMakeFiles/hazel.dir/src/events/mouse_event.cpp.i
+
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hazel.dir/src/events/mouse_event.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/workspace/hazel/hazel/src/events/mouse_event.cpp -o CMakeFiles/hazel.dir/src/events/mouse_event.cpp.s
+
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o.requires:
+
+.PHONY : CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o.requires
+
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o.provides: CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o.requires
+	$(MAKE) -f CMakeFiles/hazel.dir/build.make CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o.provides.build
+.PHONY : CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o.provides
+
+CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o.provides.build: CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o
+
+
 # Object files for target hazel
 hazel_OBJECTS = \
 "CMakeFiles/hazel.dir/src/application.cpp.o" \
 "CMakeFiles/hazel.dir/src/log.cpp.o" \
-"CMakeFiles/hazel.dir/src/events/event.cpp.o"
+"CMakeFiles/hazel.dir/src/events/event.cpp.o" \
+"CMakeFiles/hazel.dir/src/events/key_event.cpp.o" \
+"CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o"
 
 # External object files for target hazel
 hazel_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ hazel_EXTERNAL_OBJECTS =
 lib/libhazel.so: CMakeFiles/hazel.dir/src/application.cpp.o
 lib/libhazel.so: CMakeFiles/hazel.dir/src/log.cpp.o
 lib/libhazel.so: CMakeFiles/hazel.dir/src/events/event.cpp.o
+lib/libhazel.so: CMakeFiles/hazel.dir/src/events/key_event.cpp.o
+lib/libhazel.so: CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o
 lib/libhazel.so: CMakeFiles/hazel.dir/build.make
 lib/libhazel.so: CMakeFiles/hazel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/workspace/hazel/hazel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library lib/libhazel.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/workspace/hazel/hazel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library lib/libhazel.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hazel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/hazel.dir/build: lib/libhazel.so
 CMakeFiles/hazel.dir/requires: CMakeFiles/hazel.dir/src/application.cpp.o.requires
 CMakeFiles/hazel.dir/requires: CMakeFiles/hazel.dir/src/log.cpp.o.requires
 CMakeFiles/hazel.dir/requires: CMakeFiles/hazel.dir/src/events/event.cpp.o.requires
+CMakeFiles/hazel.dir/requires: CMakeFiles/hazel.dir/src/events/key_event.cpp.o.requires
+CMakeFiles/hazel.dir/requires: CMakeFiles/hazel.dir/src/events/mouse_event.cpp.o.requires
 
 .PHONY : CMakeFiles/hazel.dir/requires
 
